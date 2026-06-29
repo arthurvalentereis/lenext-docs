@@ -1,4 +1,4 @@
----
+﻿---
 title: MongoDB
 tags: [concept, database]
 last_reviewed: 2026-06-28
@@ -18,7 +18,7 @@ MongoDB Atlas — dados auxiliares e logs.
 ## Consumidores
 
 - [[TaskManager]] — logs legados
-- [email-worker](../services/letmesee-sender-email-worker/README.md) — EmailSendRetries
+- [email-worker](../services/letmesee-sender-email-worker/Email Worker.md) — EmailSendRetries
 
 ## Relacionado
 

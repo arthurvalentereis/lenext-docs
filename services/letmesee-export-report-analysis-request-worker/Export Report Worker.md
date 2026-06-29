@@ -13,6 +13,8 @@ last_reviewed: 2026-06-28
 
 Consome `analysis_request.processed` — gera relatório de análise e envia e-mail.
 
+Publicado por [[Letmesee]] `MessageBus` (TTL 5min) e pelo [Export Report Job](Export%20Report%20Job.md) (direto).
+
 ## Repositório
 
 `c:\Git\Lenext\03-workers\letmesee-export-report-analysis-request-worker`

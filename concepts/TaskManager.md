@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskManager
 tags: [concept, service]
 last_reviewed: 2026-06-28
@@ -10,7 +10,7 @@ Windows Service para consumers SMS, pagamento e higienização.
 
 ## Documentação
 
-[services/task-manager/README.md](../services/task-manager/README.md)
+[services/task-manager/TaskManager.md](../services/task-manager/TaskManager.md)
 
 ## Filas
 

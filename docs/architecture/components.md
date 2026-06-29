@@ -1,4 +1,4 @@
----
+﻿---
 title: Componentes C4
 tags: [architecture, c4, components]
 last_reviewed: 2026-06-28
@@ -68,7 +68,7 @@ flowchart TB
 
 ### DbContexts (database-per-context)
 
-Ver [docs/domain/](../domain/README.md) e [[SQL Server]].
+Ver [docs/domain/](../domain/Domain Index.md) e [[SQL Server]].
 
 ## Credit Engine — providers
 
@@ -119,4 +119,4 @@ flowchart TB
 ## Relacionado
 
 - [[Containers C4]]
-- Domínio: [docs/domain/](../domain/README.md)
+- Domínio: [docs/domain/](../domain/Domain Index.md)

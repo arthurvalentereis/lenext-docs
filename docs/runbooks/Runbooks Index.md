@@ -1,3 +1,10 @@
+---
+title: Runbooks Index
+tags: [index, runbooks]
+aliases: [Runbooks Index]
+last_reviewed: 2026-06-28
+---
+
 # Runbooks
 
 Procedimentos operacionais. Template: [runbook-template.md](../../templates/runbook-template.md)

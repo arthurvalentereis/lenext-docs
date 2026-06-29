@@ -20,6 +20,7 @@ Higienização de base via planilha Excel CPF/CNPJ.
 | Serviço | Classe |
 |---------|--------|
 | [[TaskManager]] | `DataSanitizationConsumer` |
+| [MessageApp](../../services/message-app/MessageApp.md) (legado) | `MessageConsumer` |
 
 ## Processamento
 

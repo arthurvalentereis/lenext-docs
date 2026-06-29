@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskManager
 type: worker
 status: active
@@ -48,4 +48,4 @@ Serilog → [[BetterStack]] — ver [observability](../../docs/operations/observ
 ## Relacionado
 
 - [[Task Manager]]
-- [docs/events/](../../docs/events/README.md)
+- [docs/events/](../../docs/events/Events Index.md)

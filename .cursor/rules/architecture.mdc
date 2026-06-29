@@ -14,7 +14,7 @@ Ao introduzir qualquer item abaixo, atualize `lenext-docs`:
 | Mudança | Ação |
 |---------|------|
 | Novo endpoint | `docs/api/{servico}/{recurso}.md` |
-| Novo serviço/worker/job | `services/{nome}/README.md` + C4 containers |
+| Novo serviço/worker/job | `services/{pasta}/{Nome Descritivo}.md` + C4 containers |
 | Nova entidade DbContext | `docs/domain/` + database doc |
 | Novo evento/fila | `docs/events/{fila}.md` + `integrations.md` |
 | Nova integração externa | `concepts/` ou `docs/architecture/integrations.md` |

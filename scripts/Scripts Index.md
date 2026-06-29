@@ -1,3 +1,10 @@
+---
+title: Scripts Index
+tags: [index, scripts]
+aliases: [Scripts Index]
+last_reviewed: 2026-06-28
+---
+
 # Scripts — Fase 2
 
 Automação para manter documentação sincronizada com código.

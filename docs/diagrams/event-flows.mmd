@@ -1,8 +1,55 @@
 flowchart LR
-    LMS[Letmesee] -->|publica| RMQ[RabbitMQ]
-    RMQ --> TM[TaskManager]
-    RMQ --> EmailW[email-worker]
-    RMQ --> CEW[credit-engine-worker]
-    RMQ --> BillingJ[billing-job]
-    RMQ --> ReportW[report-worker]
-    RMQ --> ExportW[export-report-worker]
+    subgraph producers [Producers]
+        LMS[Letmesee]
+        TM[TaskManager rotina]
+        EmailJob[producer-email-job]
+        BillingJob[billing-job Producer]
+        ReportJob[sales-report-job]
+        ExportJob[export-report-job]
+        MB[MessageBus]
+    end
+
+    subgraph queues [Filas]
+        Q1[sms_sender]
+        Q2[email_sender]
+        Q3[payment]
+        Q4[data_sanitization]
+        Q5[credit-engine-worker]
+        Q6[billing_queue]
+        Q7[report]
+        Q8[analysis_request.processed]
+        Q9[invoice_sender legado]
+    end
+
+    subgraph consumers [Consumers]
+        TM_C[TaskManager]
+        EmailW[email-worker]
+        CEW[credit-engine-worker]
+        BillingC[billing-job Consumer]
+        ReportW[sales-report-worker]
+        ExportW[export-report-worker]
+        MsgApp[MessageApp legado]
+    end
+
+    LMS --> Q1
+    LMS --> Q2
+    LMS --> Q3
+    LMS --> Q4
+    LMS --> Q5
+    TM --> Q1
+    TM --> Q9
+    EmailJob --> Q2
+    BillingJob --> Q6
+    ReportJob --> Q7
+    ExportJob --> Q8
+    MB --> Q8
+
+    Q1 --> TM_C
+    Q3 --> TM_C
+    Q4 --> TM_C
+    Q2 --> EmailW
+    Q5 --> CEW
+    Q6 --> BillingC
+    Q7 --> ReportW
+    Q8 --> ExportW
+    Q4 --> MsgApp

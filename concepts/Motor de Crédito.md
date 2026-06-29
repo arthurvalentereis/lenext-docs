@@ -1,4 +1,4 @@
----
+﻿---
 title: Motor de Crédito
 tags: [concept, credit]
 last_reviewed: 2026-06-28
@@ -6,7 +6,7 @@ last_reviewed: 2026-06-28
 
 # Motor de Crédito
 
-Microserviço [credit-engine](../services/credit-engine/README.md) — hub de birôs e consultas.
+Microserviço [credit-engine](../services/credit-engine/Credit Engine.md) — hub de birôs e consultas.
 
 ## Capacidades
 

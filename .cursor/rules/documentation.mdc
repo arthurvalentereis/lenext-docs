@@ -1,4 +1,4 @@
----
+﻿---
 description: Convenções de documentação Living Docs — Markdown, wikilinks, pt-BR, frontmatter
 alwaysApply: true
 ---
@@ -11,10 +11,17 @@ alwaysApply: true
 - Idioma: **pt-BR**
 - Frontmatter YAML: `title`, `tags`, `last_reviewed` (e campos específicos por tipo)
 
+## Nomenclatura de arquivos (Obsidian)
+
+- **Nunca** usar `README.md`, `Notes.md`, `Document.md`, `Untitled.md`
+- Cada nota = nome descritivo do conteúdo (`Credit Engine.md`, `RabbitMQ.md`)
+- Índices de pasta: sufixo **Index** (`Domain Index.md`, `ADR Index.md`, `Services Index.md`)
+- Serviços: `services/{pasta}/{Nome Descritivo}.md` (ex.: `services/letmesee/Letmesee.md`)
+
 ## Links
 
 - **Wikilinks** `[[Motor de Crédito]]` entre docs do hub (Obsidian)
-- **Links relativos** `[TaskManager](../services/task-manager/README.md)` para GitHub/agentes
+- **Links relativos** `[TaskManager](../services/task-manager/TaskManager.md)` para GitHub/agentes
 - Uma página por conceito em `concepts/` — nunca duplicar conhecimento
 
 ## Templates
@@ -29,6 +36,6 @@ Use templates em `templates/` para novos artefatos (ADR, API, Evento, Serviço, 
 
 ## IA-friendly
 
-- Índices em README.md com tabelas
+- Índices em notas `* Index.md` com tabelas
 - Termos de negócio no [[Glossário Lenext]]
 - Diagramas Mermaid em docs de arquitetura e fluxos

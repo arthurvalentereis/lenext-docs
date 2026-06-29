@@ -20,9 +20,15 @@ Desacopla processamento assíncrono entre [[Letmesee]], [[TaskManager]], workers
 
 ## Catálogo
 
-[docs/events/](../docs/events/README.md)
+[docs/events/](../docs/events/Events Index.md)
+
+## Mapa completo
+
+**[[Mapa Lenext]]** — todas as soluções, filas, producers, consumers e callbacks HTTP (diagramas em camadas para Obsidian).
 
 ## Relacionado
 
+- [[Mapa Lenext]]
+- [[Events Index]]
 - [[Event Driven Architecture]]
 - [[Letmesee]]

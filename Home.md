@@ -1,11 +1,21 @@
----
+﻿---
 title: Home
 tags: [moc, index]
+aliases: [Lenext Home, Mapa de Conhecimento]
 ---
 
 # Lenext — Mapa de Conhecimento
 
 > Hub central de Living Documentation. Navegue pelo grafo ou use os links abaixo.
+
+## Índices
+
+- [[Lenext Documentation Index]] — portal e áreas de documentação
+- [[Services Index]] — todos os deployáveis
+- [[Domain Index]] — bounded contexts
+- [[Events Index]] — filas RabbitMQ
+- [[ADR Index]] — decisões arquiteturais
+- [[Diagrams Index]] — diagramas Mermaid
 
 ## Arquitetura
 
@@ -33,6 +43,11 @@ tags: [moc, index]
 - [[Tickets]]
 - [[PABX]]
 
+## Mensageria
+
+-[[Mapa Lenext]]] — diagrama completo: soluções, filas, producers, consumers
+- [[Events Index]]
+
 ## Conceitos transversais
 
 - [[RabbitMQ]]
@@ -50,16 +65,15 @@ tags: [moc, index]
 
 ## Serviços
 
-Ver índice completo em [README.md](README.md#mapa-do-ecossistema).
+[[Services Index]]
 
 ## Decisões
 
-- [ADRs](docs/adr/README.md)
-- [Eventos / Filas](docs/events/README.md)
+- [[ADR Index]]
 
 ## Onboarding
 
-- [Guia para desenvolvedores](docs/onboarding/README.md)
+- [[Onboarding Index]]
 - [Guia para arquitetos](docs/onboarding/architects.md)
 
 ## Dataview — Serviços
@@ -67,6 +81,6 @@ Ver índice completo em [README.md](README.md#mapa-do-ecossistema).
 ```dataview
 TABLE type, status, last_reviewed
 FROM "services"
-WHERE file.name = "README"
-SORT file.folder ASC
+WHERE file.name != "Services Index"
+SORT file.name ASC
 ```

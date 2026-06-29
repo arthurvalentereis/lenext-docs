@@ -1,4 +1,4 @@
----
+﻿---
 title: Producer Email Job
 type: job
 status: active
@@ -23,4 +23,4 @@ Job produtor de tarefas de e-mail — publica na fila `email_sender`.
 
 ## Consumer
 
-[letmesee-sender-email-worker](../letmesee-sender-email-worker/README.md)
+[letmesee-sender-email-worker](../letmesee-sender-email-worker/Email Worker.md)

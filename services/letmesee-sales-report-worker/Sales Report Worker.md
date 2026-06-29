@@ -1,4 +1,4 @@
----
+﻿---
 title: Sales Report Worker
 type: worker
 status: active
@@ -23,4 +23,4 @@ Consome fila `report` para geração de relatórios de vendas.
 
 ## Relacionado
 
-- [letmesee-sales-report-job](../letmesee-sales-report-job/README.md)
+- [letmesee-sales-report-job](../letmesee-sales-report-job/Sales Report Job.md)

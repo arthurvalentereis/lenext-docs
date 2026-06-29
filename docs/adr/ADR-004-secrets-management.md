@@ -1,4 +1,4 @@
----
+﻿---
 title: ADR-004 Secrets management
 status: proposed
 date: 2026-06-28
@@ -39,4 +39,4 @@ Documentação referencia apenas **nomes** de variáveis, nunca valores.
 
 ## Referências
 
-- [docs/security/](../security/README.md)
+- [docs/security/](../security/Security Index.md)

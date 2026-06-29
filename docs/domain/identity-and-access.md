@@ -1,4 +1,4 @@
----
+﻿---
 title: Identity and Access
 context: identity-and-access
 database: identity
@@ -38,4 +38,4 @@ Autenticação, autorização, empresas (UserGroup), funcionários e roles.
 ## Relacionado
 
 - [[Glossário Lenext]] — UserGroup
-- Segurança: [docs/security/](../security/README.md)
+- Segurança: [docs/security/](../security/Security Index.md)

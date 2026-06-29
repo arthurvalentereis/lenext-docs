@@ -1,4 +1,4 @@
----
+﻿---
 title: Evento billing_queue
 queue: billing_queue
 tags: [event, rabbitmq]
@@ -13,7 +13,7 @@ Cobrança mensal de assinaturas.
 
 | Serviço | Classe |
 |---------|--------|
-| [lms-billing-subscriptions-job](../../services/lms-billing-subscriptions-job/README.md) | `BillingProducer` |
+| [lms-billing-subscriptions-job](../../services/lms-billing-subscriptions-job/Billing Subscriptions Job.md) | `BillingProducer` |
 
 ## Consumer(s)
 

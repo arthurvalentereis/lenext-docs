@@ -1,4 +1,4 @@
----
+﻿---
 description: Formato e numeração de ADRs em docs/adr/
 globs:
   - docs/adr/**
@@ -26,9 +26,9 @@ Use `templates/adr-template.md`:
 
 1. RFC em `docs/decisions/` se proposta ainda em debate
 2. ADR após aprovação
-3. Link ADR em README do serviço afetado
+3. Link ADR na nota descritiva do serviço afetado
 4. Wikilink `[[ADR-NNN]]` em conceitos relacionados
 
 ## Índice
 
-Manter `docs/adr/README.md` atualizado com tabela de todos os ADRs.
+Manter `docs/adr/ADR Index.md` atualizado com tabela de todos os ADRs.

@@ -16,5 +16,5 @@ Processamento assíncrono via [[RabbitMQ]] no ecossistema Lenext.
 
 ## Relacionado
 
-- [docs/events/](../docs/events/README.md)
+- [docs/events/](../docs/events/Events Index.md)
 - [[RabbitMQ]]

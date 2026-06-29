@@ -1,6 +1,7 @@
 ---
-title: Segurança
-tags: [security]
+title: Security Index
+tags: [index, security]
+aliases: [Security Index, Segurança Index]
 last_reviewed: 2026-06-28
 ---
 

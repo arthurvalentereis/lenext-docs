@@ -1,4 +1,4 @@
----
+﻿---
 title: Evento report
 queue: report
 tags: [event, rabbitmq]
@@ -13,14 +13,14 @@ Relatórios de vendas.
 
 | Serviço | Origem |
 |---------|--------|
-| [[Letmesee]] | Disparo de relatório |
+| [letmesee-sales-report-job](../../services/letmesee-sales-report-job/Sales Report Job.md) | Job agendado — `RabbitService.BasicPublish` |
 
 ## Consumer(s)
 
 | Serviço | Classe |
 |---------|--------|
-| [letmesee-sales-report-worker](../../services/letmesee-sales-report-worker/README.md) | Worker |
+| [letmesee-sales-report-worker](../../services/letmesee-sales-report-worker/Sales Report Worker.md) | Worker |
 
 ## Relacionado
 
-- [letmesee-sales-report-job](../../services/letmesee-sales-report-job/README.md)
+- [letmesee-sales-report-job](../../services/letmesee-sales-report-job/Sales Report Job.md)

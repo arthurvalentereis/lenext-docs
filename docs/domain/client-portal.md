@@ -1,4 +1,4 @@
----
+﻿---
 title: Client Portal
 context: client-portal
 database: customer
@@ -22,7 +22,7 @@ Portal self-service para clientes finais, domínios customizados, configuraçõe
 ## Serviços
 
 - [[Letmesee]] — ClientPortalController, UserCompanyPortal, VercelDomainService
-- [lms-web-client-portal](../../services/lms-web-client-portal/README.md)
+- [lms-web-client-portal](../../services/lms-web-client-portal/Portal do Cliente.md)
 
 ## Integrações
 

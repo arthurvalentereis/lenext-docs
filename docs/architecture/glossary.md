@@ -1,4 +1,4 @@
----
+﻿---
 title: Glossário Lenext
 tags: [domain, glossary, ubiquous-language]
 last_reviewed: 2026-06-28
@@ -51,6 +51,6 @@ Termos compartilhados entre bounded contexts do ecossistema Lenext.
 
 ## Relacionado
 
-- [docs/domain/](../domain/README.md)
+- [docs/domain/](../domain/Domain Index.md)
 - [[C4 Model]]
 - [[Event Driven Architecture]]

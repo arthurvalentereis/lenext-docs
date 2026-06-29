@@ -1,4 +1,4 @@
----
+﻿---
 title: Evento analysis_request.processed
 queue: analysis_request.processed
 tags: [event, rabbitmq]
@@ -13,13 +13,14 @@ Análise de crédito concluída — dispara exportação de relatório.
 
 | Serviço | Mecanismo |
 |---------|-----------|
-| [[Letmesee]] | MessageBus — DLX + TTL 5 min (await-queue) |
+| [[Letmesee]] | `MessageBus` — DLX + TTL 5 min (`await-queue`) |
+| [export-report-job](../../services/letmesee-export-report-analysis-request-worker/Export%20Report%20Job.md) | `AnalysisRequestPublisher` — publicação direta agendada |
 
 ## Consumer(s)
 
 | Serviço | Classe |
 |---------|--------|
-| [export-report-worker](../../services/letmesee-export-report-analysis-request-worker/README.md) | Worker |
+| [export-report-worker](../../services/letmesee-export-report-analysis-request-worker/Export Report Worker.md) | Worker |
 
 ## Processamento
 

@@ -48,7 +48,7 @@ Migrado de `task-manager/docs/LOGGING.md`:
 
 ## Health checks
 
-Documentar por serviço em `services/{nome}/README.md` — endpoint `/health` quando disponível.
+Documentar por serviço em `services/{pasta}/{Nome Descritivo}.md` — endpoint `/health` quando disponível.
 
 ## Dashboards e alertas
 

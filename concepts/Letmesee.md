@@ -1,4 +1,4 @@
----
+﻿---
 title: Letmesee
 tags: [concept, service]
 last_reviewed: 2026-06-28
@@ -10,7 +10,7 @@ API monolítica central do ecossistema Lenext.
 
 ## Documentação
 
-[services/letmesee/README.md](../services/letmesee/README.md)
+[services/letmesee/Letmesee.md](../services/letmesee/Letmesee.md)
 
 ## Papel
 

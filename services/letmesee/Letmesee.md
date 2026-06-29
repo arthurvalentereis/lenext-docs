@@ -41,7 +41,7 @@ API monolítica central do LMS — hub de negócio, autenticação, domínios e 
 
 ## Bancos
 
-16+ databases [[SQL Server]] — ver [docs/domain/](../../docs/domain/README.md)
+16+ databases [[SQL Server]] — ver [docs/domain/](../../docs/domain/Domain Index.md)
 
 ## Ambientes
 

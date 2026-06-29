@@ -1,14 +1,14 @@
-# Onboarding — Arquitetos
+﻿# Onboarding — Arquitetos
 
 ## Visão sistêmica
 
 1. [C4 Context](../architecture/context.md) — ecossistema
 2. [C4 Containers](../architecture/containers.md) — deployáveis
 3. [C4 Components](../architecture/components.md) — Letmesee + Credit Engine
-4. [Domínio DDD](../domain/README.md) — bounded contexts
-5. [Eventos](../events/README.md) — RabbitMQ
+4. [Domínio DDD](../domain/Domain Index.md) — bounded contexts
+5. [Eventos](../events/Events Index.md) — RabbitMQ
 6. [Integrações](../architecture/integrations.md)
-7. [ADRs](../adr/README.md) — decisões
+7. [ADRs](../adr/ADR Index.md) — decisões
 
 ## Modelo de documentação
 

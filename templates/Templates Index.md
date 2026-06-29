@@ -1,3 +1,10 @@
+---
+title: Templates Index
+tags: [index, templates]
+aliases: [Templates Index]
+last_reviewed: 2026-06-28
+---
+
 # Templates
 
 Templates padronizados para Living Documentation. Use com Templater (Obsidian) ou copie manualmente.

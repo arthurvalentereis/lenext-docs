@@ -1,4 +1,4 @@
----
+﻿---
 description: Novo endpoint — documentar em docs/api/ e manter Swagger sincronizado
 globs:
   - "**/Controllers/**"
@@ -14,7 +14,7 @@ Ao criar ou alterar endpoints:
 2. **Catálogo central** em `lenext-docs/docs/api/{servico}/`:
    - Use `templates/api-template.md`
    - Método, path, auth, request/response, erros, exemplos
-3. Atualize índice em `docs/api/README.md`
+3. Atualize índice em `docs/api/API Index.md`
 4. Se novo recurso de domínio → link em `docs/domain/`
 5. Se expõe evento → link em `docs/events/`
 

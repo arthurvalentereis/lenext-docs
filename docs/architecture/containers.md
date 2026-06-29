@@ -1,4 +1,4 @@
----
+﻿---
 title: Containers C4
 tags: [architecture, c4, containers]
 last_reviewed: 2026-06-28
@@ -72,13 +72,13 @@ flowchart TB
 
 | Container | Tecnologia | Deploy | Documentação |
 |-----------|------------|--------|--------------|
-| [[Letmesee]] Leader.Web | .NET 8 | Azure App Service | [services/letmesee](../../services/letmesee/README.md) |
+| [[Letmesee]] Leader.Web | .NET 8 | Azure App Service | [services/letmesee](../../services/letmesee/Letmesee.md) |
 | Leader.API | .NET 8 | Azure | Swagger v1 estático |
-| [[Motor de Crédito]] | .NET 8 | Azure | [services/credit-engine](../../services/credit-engine/README.md) |
-| AI Doc Analysis | .NET 8 | Azure | [services/letmesee-ai-doc-analysis-api](../../services/letmesee-ai-doc-analysis-api/README.md) |
-| [[Lenext Banking]] | .NET | Azure | [services/lenext-banking](../../services/lenext-banking/README.md) |
-| LMS Integration API | .NET | Azure | [services/lms-integration-api](../../services/lms-integration-api/README.md) |
-| [[TaskManager]] | .NET 8 | Windows Service | [services/task-manager](../../services/task-manager/README.md) |
+| [[Motor de Crédito]] | .NET 8 | Azure | [services/credit-engine](../../services/credit-engine/Credit Engine.md) |
+| AI Doc Analysis | .NET 8 | Azure | [services/letmesee-ai-doc-analysis-api](../../services/letmesee-ai-doc-analysis-api/AI Doc Analysis API.md) |
+| [[Lenext Banking]] | .NET | Azure | [services/lenext-banking](../../services/lenext-banking/Lenext Banking Service.md) |
+| LMS Integration API | .NET | Azure | [services/lms-integration-api](../../services/lms-integration-api/LMS Integration API.md) |
+| [[TaskManager]] | .NET 8 | Windows Service | [services/task-manager](../../services/task-manager/TaskManager.md) |
 | MessageApp | .NET | Azure | Legado |
 
 ## Frontends
@@ -91,7 +91,7 @@ flowchart TB
 
 ## Workers e jobs
 
-Ver índice em [README.md](../../README.md#mapa-do-ecossistema).
+Ver índice em [[Services Index]].
 
 ## Filas RabbitMQ
 
@@ -106,7 +106,7 @@ Ver índice em [README.md](../../README.md#mapa-do-ecossistema).
 | `billing_queue` | billing-job | billing-job |
 | `report` | Letmesee | sales-report-worker |
 
-Detalhes: [docs/events/](../events/README.md)
+Detalhes: [docs/events/](../events/Events Index.md)
 
 ## Datastores
 

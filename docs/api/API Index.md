@@ -1,3 +1,10 @@
+---
+title: API Index
+tags: [index, api]
+aliases: [API Index]
+last_reviewed: 2026-06-28
+---
+
 # Catálogo de APIs
 
 Índice de APIs do ecossistema. Contratos detalhados permanecem no Swagger de cada repositório.

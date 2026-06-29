@@ -1,4 +1,4 @@
----
+﻿---
 title: Vendor Portal
 context: vendor-portal
 database: supplier
@@ -21,7 +21,7 @@ Portal comercial/fornecedor, acesso de parceiros.
 ## Serviços
 
 - [[Letmesee]] — VendorPortalController
-- [lms-web-vendor-portal](../../services/lms-web-vendor-portal/README.md)
+- [lms-web-vendor-portal](../../services/lms-web-vendor-portal/Portal Comercial.md)
 
 ## Integrações
 

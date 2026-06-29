@@ -1,4 +1,4 @@
----
+﻿---
 title: Evento credit-engine-worker
 queue: credit-engine-worker
 tags: [event, rabbitmq]
@@ -19,7 +19,7 @@ Processamento assíncrono de consultas do motor de crédito.
 
 | Serviço | Classe |
 |---------|--------|
-| [lms-credit-engine-worker](../../services/lms-credit-engine-worker/README.md) | BackgroundService |
+| [lms-credit-engine-worker](../../services/lms-credit-engine-worker/Credit Engine Worker.md) | BackgroundService |
 
 ## Dependências
 

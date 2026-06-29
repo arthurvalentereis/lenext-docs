@@ -1,4 +1,4 @@
----
+﻿---
 title: Task Manager
 context: task-manager
 database: task_manager
@@ -35,4 +35,4 @@ Orquestração de tarefas assíncronas: SMS, pagamento, higienização.
 
 ## Relacionado
 
-- [docs/events/](../events/README.md)
+- [docs/events/](../events/Events Index.md)

@@ -1,4 +1,4 @@
----
+﻿---
 title: ADR-003 Database per bounded context
 status: accepted
 date: 2026-06-28
@@ -37,4 +37,4 @@ Um database SQL Server por bounded context, cada um com DbContext EF Core dedica
 ## Referências
 
 - [[SQL Server]]
-- [docs/domain/](../domain/README.md)
+- [docs/domain/](../domain/Domain Index.md)

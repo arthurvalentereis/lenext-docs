@@ -1,6 +1,7 @@
 ---
-title: Operações
-tags: [operations]
+title: Operations Index
+tags: [index, operations]
+aliases: [Operations Index, Operações Index]
 last_reviewed: 2026-06-28
 ---
 
