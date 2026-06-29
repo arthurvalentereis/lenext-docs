@@ -1,0 +1,28 @@
+---
+description: Documentação de testes quando comportamento crítico muda
+globs:
+  - "**/*.cs"
+  - "**/*.tsx"
+  - "**/*.ts"
+alwaysApply: false
+---
+
+# Testing Documentation
+
+Ao alterar comportamento crítico (pagamento, crédito, cobrança, auth):
+
+1. Descreva cenários de teste no PR ou em doc de domínio
+2. Fluxos E2E relevantes → diagrama em `docs/events/` ou runbook
+3. Não adicionar testes triviais só para cobertura
+
+## Áreas críticas Lenext
+
+- Banking / webhooks Asaas
+- Motor de Crédito / consultas bureau
+- RabbitMQ / consumers (idempotência, retry)
+- Identity and Access / JWT e roles
+
+## Observabilidade de testes
+
+- Logs estruturados em testes de integração quando útil para debug
+- Referenciar filtros BetterStack em runbooks

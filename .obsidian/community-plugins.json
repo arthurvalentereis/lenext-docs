@@ -1,0 +1,8 @@
+{
+  "community-plugins": [
+    "calendar",
+    "dataview",
+    "templater-obsidian",
+    "obsidian-excalidraw-plugin"
+  ]
+}

@@ -1,0 +1,32 @@
+---
+description: Novo endpoint — documentar em docs/api/ e manter Swagger sincronizado
+globs:
+  - "**/Controllers/**"
+  - "**/*Controller.cs"
+alwaysApply: false
+---
+
+# API Documentation
+
+Ao criar ou alterar endpoints:
+
+1. **Swagger/OpenAPI** no repositório do serviço (fonte de contrato)
+2. **Catálogo central** em `lenext-docs/docs/api/{servico}/`:
+   - Use `templates/api-template.md`
+   - Método, path, auth, request/response, erros, exemplos
+3. Atualize índice em `docs/api/README.md`
+4. Se novo recurso de domínio → link em `docs/domain/`
+5. Se expõe evento → link em `docs/events/`
+
+## Versionamento
+
+- Breaking change → nova versão de API ou ADR
+- Documentar depreciação com prazo
+
+## Serviços Lenext
+
+| Serviço | Swagger path |
+|---------|--------------|
+| Letmesee Leader.API | `Letmesee/server/Leader.API/wwwroot/docs/v1/` |
+| Letmesee Leader.Web | Swagger dev |
+| Credit Engine | Swagger dev |

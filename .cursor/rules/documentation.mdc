@@ -1,0 +1,34 @@
+---
+description: Convenções de documentação Living Docs — Markdown, wikilinks, pt-BR, frontmatter
+alwaysApply: true
+---
+
+# Living Documentation — Convenções
+
+## Formato
+
+- Markdown em todos os documentos
+- Idioma: **pt-BR**
+- Frontmatter YAML: `title`, `tags`, `last_reviewed` (e campos específicos por tipo)
+
+## Links
+
+- **Wikilinks** `[[Motor de Crédito]]` entre docs do hub (Obsidian)
+- **Links relativos** `[TaskManager](../services/task-manager/README.md)` para GitHub/agentes
+- Uma página por conceito em `concepts/` — nunca duplicar conhecimento
+
+## Templates
+
+Use templates em `templates/` para novos artefatos (ADR, API, Evento, Serviço, etc.).
+
+## Evolução
+
+- Atualize `last_reviewed` ao modificar documentos
+- Mudança de código sem doc = dívida técnica — sincronize no mesmo PR quando possível
+- ADR quando decisão arquitetural irreversível ou de alto impacto
+
+## IA-friendly
+
+- Índices em README.md com tabelas
+- Termos de negócio no [[Glossário Lenext]]
+- Diagramas Mermaid em docs de arquitetura e fluxos

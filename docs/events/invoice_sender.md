@@ -1,0 +1,23 @@
+---
+title: Evento invoice_sender
+queue: invoice_sender
+tags: [event, rabbitmq, legacy]
+last_reviewed: 2026-06-28
+---
+
+# Evento: `invoice_sender` (legado)
+
+Envio de faturas — fluxo migrado para `billing_queue`.
+
+## Status
+
+**Legado** — referenciado em configs antigas. Cobrança de assinaturas migrou para [billing_queue](billing_queue.md).
+
+## Consumer histórico
+
+- MessageApp (Azure)
+
+## Relacionado
+
+- [[ERP Billing]]
+- [message-app](../../services/message-app/README.md)

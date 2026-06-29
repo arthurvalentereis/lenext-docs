@@ -1,0 +1,34 @@
+---
+description: Formato e numeração de ADRs em docs/adr/
+globs:
+  - docs/adr/**
+alwaysApply: false
+---
+
+# Architecture Decision Records
+
+## Formato
+
+Use `templates/adr-template.md`:
+
+- Nome: `ADR-NNN-titulo-kebab-case.md`
+- Numeração sequencial (próximo número disponível)
+- Status: `proposed` → `accepted` → `deprecated` | `superseded`
+
+## Quando criar ADR
+
+- Escolha de tecnologia ou padrão transversal
+- Mudança de contrato entre serviços
+- Estratégia de dados, mensageria ou deploy
+- Decisão difícil de reverter
+
+## Processo
+
+1. RFC em `docs/decisions/` se proposta ainda em debate
+2. ADR após aprovação
+3. Link ADR em README do serviço afetado
+4. Wikilink `[[ADR-NNN]]` em conceitos relacionados
+
+## Índice
+
+Manter `docs/adr/README.md` atualizado com tabela de todos os ADRs.

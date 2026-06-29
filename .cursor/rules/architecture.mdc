@@ -1,0 +1,38 @@
+---
+description: Regras arquiteturais — mudanças estruturais exigem ADR, C4 e sincronização com lenext-docs
+alwaysApply: true
+---
+
+# Architecture Guardian — Lenext
+
+Antes de alterações estruturais, avalie impacto sistêmico no ecossistema Lenext.
+
+## Checklist obrigatório
+
+Ao introduzir qualquer item abaixo, atualize `lenext-docs`:
+
+| Mudança | Ação |
+|---------|------|
+| Novo endpoint | `docs/api/{servico}/{recurso}.md` |
+| Novo serviço/worker/job | `services/{nome}/README.md` + C4 containers |
+| Nova entidade DbContext | `docs/domain/` + database doc |
+| Novo evento/fila | `docs/events/{fila}.md` + `integrations.md` |
+| Nova integração externa | `concepts/` ou `docs/architecture/integrations.md` |
+| Mudança arquitetural | ADR em `docs/adr/` |
+| Diagrama afetado | `docs/architecture/` ou `docs/diagrams/` |
+
+## Princípios
+
+- Clean Architecture, DDD, Event Driven Architecture, C4 Model
+- Hub **linka e sintetiza**; código **detalha contratos** (Swagger, migrations)
+- Nunca duplicar conceitos — use wikilinks `[[Conceito]]`
+- Conceito transversal → `concepts/`; detalhe operacional → repo do serviço
+- Breaking changes → ADR + estratégia de migração documentada
+
+## Obsidian
+
+Criar ou atualizar links bidirecionais entre documentos relacionados.
+
+## Segurança
+
+Nunca documentar valores de secrets — apenas nomes de variáveis (`ConnectionStrings:IdentityDb`).

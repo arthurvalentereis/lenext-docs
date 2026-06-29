@@ -1,0 +1,20 @@
+# Obsidian — evitar conflitos locais
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+.vscode/
+
+# Secrets — nunca commitar
+.env
+*.secret
+credentials.json

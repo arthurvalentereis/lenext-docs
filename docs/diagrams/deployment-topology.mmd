@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph cloud [Cloud]
+        Azure[Azure App Services]
+        Vercel[Vercel]
+        Netlify[Netlify]
+        CloudAMQP[CloudAMQP]
+        Atlas[MongoDB Atlas]
+    end
+    subgraph onprem [On-premise]
+        SQL[SQL Server]
+        WinSvc[Windows Services]
+    end
+    Azure --> SQL
+    Azure --> CloudAMQP
+    WinSvc --> CloudAMQP
+    Vercel --> Azure
+    Netlify --> Azure

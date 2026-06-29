@@ -1,0 +1,8 @@
+flowchart LR
+    LMS[Letmesee] -->|publica| RMQ[RabbitMQ]
+    RMQ --> TM[TaskManager]
+    RMQ --> EmailW[email-worker]
+    RMQ --> CEW[credit-engine-worker]
+    RMQ --> BillingJ[billing-job]
+    RMQ --> ReportW[report-worker]
+    RMQ --> ExportW[export-report-worker]

@@ -1,0 +1,39 @@
+---
+description: Diagramas — Mermaid first; Structurizr se diagrama complexo
+globs:
+  - docs/**/*.md
+alwaysApply: false
+---
+
+# Diagramas
+
+## Padrão
+
+- **Mermaid** embutido em Markdown (GitHub + Obsidian)
+- Arquivos `.mmd` em `docs/diagrams/` quando reutilizados
+
+## Tipos C4
+
+| Nível | Arquivo | Conteúdo |
+|-------|---------|----------|
+| Context | `docs/architecture/context.md` | Ecossistema + usuários + externos |
+| Containers | `docs/architecture/containers.md` | Deployáveis |
+| Components | `docs/architecture/components.md` | Módulos internos |
+
+## Quando usar Structurizr
+
+Se diagrama Mermaid passar de ~15 nós ou ficar ilegível:
+
+- Stub: `docs/diagrams/structurizr/workspace.dsl`
+- Exportar PNG/SVG para `docs/diagrams/`
+
+## Sequência e fluxo
+
+- Eventos: `docs/events/` com sequenceDiagram
+- Runbooks: fluxo de diagnóstico em flowchart
+
+## Sintaxe Mermaid
+
+- IDs sem espaços (camelCase)
+- Labels com caracteres especiais entre aspas
+- Evitar cores customizadas (compatibilidade)
