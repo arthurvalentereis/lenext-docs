@@ -3,7 +3,7 @@ title: Credit Analytics
 context: credit-analytics
 database: credit_analytics
 tags: [domain, bounded-context]
-last_reviewed: 2026-06-28
+last_reviewed: 2026-07-22
 ---
 
 # Bounded Context: Credit Analytics
@@ -19,6 +19,17 @@ Pedidos de análise de crédito, políticas internas, métricas e integração c
 | AnalysisRequest | AnalysisRequest | Consome créditos do plano |
 | InternalCreditPolicy | Policy | Regras de decisão |
 | Metric | Metric | KPIs configuráveis |
+
+## Processamento (`process-engine`)
+
+Endpoint em [[Letmesee]]: `POST /api/CreditEngine/process-engine` (`RequestProcessEngine`).
+
+| Flag | Comportamento |
+|------|----------------|
+| `OnlyQuery=false` (default) | Consulta bureau + `HeaderId` + motor de decisão (política obrigatória) |
+| `OnlyQuery=true` | Só consulta bureau + amarra `HeaderId`; pedido permanece em aberto para decisão manual |
+
+Ver fluxo detalhado em [[Análise de Crédito]].
 
 ## Eventos de domínio
 

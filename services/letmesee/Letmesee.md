@@ -4,7 +4,7 @@ type: api
 status: active
 repo: Letmesee
 tags: [service]
-last_reviewed: 2026-06-28
+last_reviewed: 2026-07-22
 ---
 
 # Letmesee (Leader.Web / Leader.API)
@@ -35,6 +35,11 @@ API monolítica central do LMS — hub de negócio, autenticação, domínios e 
 - `Leader.Infrasctruture` — DbContexts
 - `Lenext.Messages` — Producers RabbitMQ
 
+## Credit Analytics (destaques)
+
+- `CreditEngineController.ProcessEngine` — orquestra consulta bureau + (opcional) motor de decisão
+- Flag `OnlyQuery` em `RequestProcessEngine`: consulta sem política/motor; amarra `header_id` e mantém pedido em aberto (decisão manual). Ver [[Análise de Crédito]].
+
 ## Filas publicadas
 
 `sms_sender`, `email_sender`, `payment`, `data_sanitization`, `credit-engine-worker`, `analysis_request`, `report`
@@ -54,3 +59,5 @@ API monolítica central do LMS — hub de negócio, autenticação, domínios e 
 
 - [[Contexto C4]]
 - [[Integrações Lenext]]
+- [[Credit Analytics]]
+- [[Análise de Crédito]]
